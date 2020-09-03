@@ -20,6 +20,11 @@ Define your model
     use Koyanyaroo\Imageable;
 
     ...
+    
+    /**
+     * @var string upload directory 
+     */
+    protected $uploadDir = '';
 
    /**
         * Define an array of filter that allowed to use for this model
@@ -31,8 +36,8 @@ Define your model
            'image',
            'image_hero' => [
                'thumb' => [
-                   380,
-                   253,
+                   380, // widht
+                   253, // height
                ],
            ],
        ];
