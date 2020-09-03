@@ -15,7 +15,6 @@ use Intervention\Image\Facades\Image;
  */
 trait Imageable
 {
-	protected $uploadDir;
     /**
      * Get the image file url if exist
      *
