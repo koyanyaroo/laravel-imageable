@@ -1,0 +1,31 @@
+{
+  "name": "koyanyaroo/laravel-imageable",
+  "description": "A Simple upload library for laravel",
+  "keywords": [
+    "laravel-imageable",
+    "laravel",
+    "upload",
+    "image"
+  ],
+  "homepage": "https://github.com/koyanyaroo/laravel-imageable",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "illuminate/http": "^6.0",
+    "illuminate/support": "^6.0",
+    "intervention/image": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Koyanyaroo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Fajar Budhi Iswanda",
+      "email": "koyanyaroo@gmail.com",
+      "homepage": "https://iswanda.com",
+      "role": "Developer"
+    }
+  ]
+}
